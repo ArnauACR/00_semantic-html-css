@@ -7,43 +7,43 @@ body {
 header.banner {
     background-color: #4a90e2;
     color: white;
-    padding: 2%;
+    padding: 20px;
     text-align: center;
 }
 
 header.banner h2 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 section.container {
     display: flex;
     justify-content: space-between;
-    padding: 2%;
+    padding: 20px;
     max-width: 100%;
     margin: 0 auto;
-    gap: 2%;
+    gap: 20px;
     align-items: flex-start;
 }
 
 article.block {
     background-color: #ffffff;
     width: 45%;
-    padding: 2%;
-    box-shadow: 0 0.4% 0.8% rgba(0, 0, 0, 0.1);
-    margin-top: 2%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 article.note-block {
     width: 60%;
     text-align: left;
-    padding: 1.5%;
+    padding: 15px;
 }
 
 article.note-block h3 {
     text-align: left;
-    margin-bottom: 2%;
-    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 article.resource-block {
@@ -52,46 +52,46 @@ article.resource-block {
 }
 
 article.block h2 {
-    margin-bottom: 1%;
-    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 article.block h3 {
-    font-size: 1.2em;
-    margin-bottom: 1%;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 article.block input {
     width: 100%;
-    padding: 1%;
-    margin: 1% 0;
+    padding: 10px;
+    margin: 10px 0;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
     box-sizing: border-box;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 article.block textarea {
     width: 100%;
-    padding: 1%;
-    margin: 1% 0;
+    padding: 10px;
+    margin: 10px 0;
     border: 1px solid #d3d3d3;
     border-radius: 5px;
     box-sizing: border-box;
-    font-size: 0.9em;
-    min-height: 15%;
+    font-size: 0.9rem;
+    min-height: 150px;
 }
 
 article.block button {
     background-color: #ff5723;
     color: white;
-    padding: 1%;
+    padding: 10px;
     border: none;
     width: 100%;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1rem;
     cursor: pointer;
-    margin-top: 1%;
+    margin-top: 10px;
 }
 
 article.block button:hover {
@@ -109,13 +109,13 @@ ul.resources-list {
 }
 
 ul.resources-list li {
-    margin-bottom: 1%;
+    margin-bottom: 10px;
 }
 
 ul.resources-list a {
     text-decoration: none;
     color: #794da4;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 ul.resources-list a:hover {
@@ -125,7 +125,7 @@ ul.resources-list a:hover {
 footer.underbanner {
     background-color: #4a90e2;
     color: white;
-    padding: 1%;
+    padding: 10px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -134,8 +134,9 @@ footer.underbanner {
 
 footer.underbanner p {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
+
 
 
 
